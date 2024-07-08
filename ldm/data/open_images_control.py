@@ -254,6 +254,8 @@ def bbox2mask(bbox, mask_w, mask_h):
     return mask
     
 def mask2bbox(mask):
+    print(mask)
+    print(mask.ndim)
     if not isinstance(mask, np.ndarray):
         mask = np.array(mask)
     if mask.ndim == 3:
