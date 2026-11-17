@@ -22,5 +22,5 @@ torch
 torchmetrics==1.2.0
 torchvision
 tqdm==4.66.3
-transformers==5.10.0
+transformers==5.10.1
 typing_extensions==4.16.0
